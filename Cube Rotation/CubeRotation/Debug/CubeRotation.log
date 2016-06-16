@@ -1,0 +1,16 @@
+﻿Build started 31-12-2015 08:16:49 PM.
+     1>Project "H:\ICAT college\OpenGl Stuff\Cube Rotation\CubeRotation\CubeRotation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Hitesh\Downloads\freeglut-2.8.1\freeglut-2.8.1\include" /I"H:\ICAT college\OpenGl Stuff\Cube Rotation\\LinkerFiles\glut-3.6\glut-3.6\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\icat college\opengl stuff\cube rotation\cuberotation\main.cpp(18): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>h:\icat college\opengl stuff\cube rotation\cuberotation\main.cpp(52): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>h:\icat college\opengl stuff\cube rotation\cuberotation\main.cpp(72): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ICAT college\OpenGl Stuff\Cube Rotation\Debug\CubeRotation.exe" /INCREMENTAL /NOLOGO /LIBPATH:"H:\ICAT college\OpenGl Stuff\Cube Rotation\\LinkerFiles\glut-3.6\glut-3.6\lib" glut32.lib opengl32.lib glu32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\ICAT college\OpenGl Stuff\Cube Rotation\Debug\CubeRotation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ICAT college\OpenGl Stuff\Cube Rotation\Debug\CubeRotation.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "H:\ICAT college\OpenGl Stuff\Cube Rotation\CubeRotation\CubeRotation.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.58
